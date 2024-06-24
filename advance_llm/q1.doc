@@ -1,0 +1,43 @@
+Description
+There are M shelves in a large warehouse 1, 2, . . ., M in which the shelf j is located at point j of the warehouse (j = 1, ..., M). 
+There are N product 1, 2, . . ., N. The amount of product i in the shelf j is Q[i][j].
+The warehouse staff starts from the door (point 0) of the warehouse, and want to visit some shelves 
+(each shelf is visited at most once) and come back to the door to pickup products for the 
+order of customers in which the total amount of product i he must pickup is q[i] (i = 1, 2, . . ., N).
+The travel distance from point i to point j is d(i,j) (0 <= i,j <= M). 
+Find the sequence of shelves to visit such that the total travel distance is minimal.
+
+Input
+Line 1: two positive integer N and M (1 <= N <= 50, 1 <= M <= 1000)
+Line 1 + i (i = 1, ..., N): contains the ith row of Q
+Line N + i + 2 (i = 0, 1, ..., M): contains the ith row of the distance matrix d 
+Line N + M + 3: contains q[1], q[2], . . ., q[N]
+
+A solution is represented by a sequence of n positive integers x1, x2, . . ., xn representing the sequence of shelves to be visited 
+
+Output
+Line 1: contains a positive integer n
+Line 2: contains n positive integers x1, x2, . . ., xn
+
+Example
+Input
+6 5
+3 2 2 4 2 
+4 3 7 3 5 
+6 7 2 5 4 
+2 3 3 2 1 
+2 5 7 6 1 
+7 2 1 6 5 
+0 16 10 13 13 19 
+16 0 8 3 19 5 
+10 8 0 7 23 11 
+13 3 7 0 16 6 
+13 19 23 16 0 22 
+19 5 11 6 22 0 
+8 7 4 8 11 13 
+
+Output
+4
+2 3 1 5 
+ 
+Explanation: the route of the warehouse staff is: 0 - 2 - 3 - 1 - 5 - 0 
