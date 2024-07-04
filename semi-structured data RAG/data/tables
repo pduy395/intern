@@ -1,0 +1,20 @@
+Bảng thông tin này mô tả cách chuyển đổi điểm từ thang điểm 10 sang thang điểm 4 và điểm chữ. Theo bảng, điểm từ 9,5 đến 10 trên thang điểm 10 sẽ được chuyển đổi thành 4,0 trên thang điểm 4 và được ghi nhận là A+. Tương tự, điểm từ 8,5 đến 9,4 sẽ được chuyển đổi thành 4,0 và được ghi nhận là A. Điểm từ 8,0 đến 8,4 sẽ được chuyển đổi thành 3,5 và được ghi nhận là B+. Điểm từ 7,0 đến 7,9 sẽ được chuyển đổi thành 3,0 và được ghi nhận là B. Điểm từ 6,5 đến 6,9 sẽ được chuyển đổi thành 2,5 và được ghi nhận là C+. Điểm từ 5,5 đến 6,4 sẽ được chuyển đổi thành 2,0 và được ghi nhận là C. Điểm từ 5,0 đến 5,4 sẽ được chuyển đổi thành 1,5 và được ghi nhận là D+. Điểm từ 4,0 đến 4,9 sẽ được chuyển đổi thành 1,0 và được ghi nhận là D. Cuối cùng, điểm dưới 4,0 sẽ được chuyển đổi thành 0 và được ghi nhận là F, tức là không đạt.
+Bảng này cung cấp thông tin về số tín chỉ tích lũy cần thiết cho mỗi năm học tại các cấp độ học khác nhau. 
+
+- Trình độ Cao đẳng 3 năm không được đề cập đến số tín chỉ cụ thể.
+- Đối với trình độ Đại học 4 năm: 
+  + Sinh viên năm thứ nhất cần tích lũy dưới 32 tín chỉ.
+  + Sinh viên năm thứ hai cần tích lũy từ 32 đến dưới 64 tín chỉ.
+  + Sinh viên năm thứ ba cần tích lũy từ 64 đến dưới 96 tín chỉ.
+  + Sinh viên năm thứ tư cần tích lũy từ 96 đến dưới 128 tín chỉ.
+- Đối với trình độ Đại học 4,5-5 năm, sinh viên năm thứ năm cần tích lũy từ 128 tín chỉ trở lên.
+Bảng này phân loại học lực của học sinh dựa trên điểm trung bình tích lũy. Cụ thể như sau:
+
+- Học lực "Xuất sắc" đạt khi điểm trung bình tích lũy là 4,00.
+- Học lực "Giỏi" đạt khi điểm trung bình tích lũy từ 3,60 đến 3,99.
+- Học lực "Khá" đạt khi điểm trung bình tích lũy từ 3,20 đến 3,59.
+- Học lực "Bình thường" đạt khi điểm trung bình tích lũy từ 2,50 đến 3,19.
+- Học lực "Trung bình" đạt khi điểm trung bình tích lũy từ 2,00 đến 2,49.
+- Học lực "Trung bình yếu" đạt khi điểm trung bình tích lũy từ 1,50 đến 1,99.
+- Học lực "Yếu" đạt khi điểm trung bình tích lũy từ 1,00 đến 1,49.
+- Học lực "Kém" đạt khi điểm trung bình tích lũy dưới 1,0.
